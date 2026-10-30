@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi simulador</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.all.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <h1 class="title">Proyecto Bar</h1>
+        <p id="mensajeAviso"></p>
+    </header>
+    <main id="main">
+      
+        <div class="card">
+            <h2 class="title" id="title2">Ingreso al Bar</h2>
+            <div id="formIngreso">
+                <input type="number" id="inputEdad" placeholder="Edad">
+                <button id="botonIngresar">Ingresar</button>
+            </div>
+            <p id="mensajeIngreso">Para ingresar debes decir tu edad. Hoy hay happy hour.</p>
+            <div id="contenedor-pedidos"></div>
+            <div id="contenedor-cuenta"></div>
+        </div>
+          <div class="card">
+            <h2 class="title" id="title1">Administración del Bar</h2>
+            <input type="text" id="inputNombre" placeholder="Nombre">
+            <input type="number" id="inputPrecio" placeholder="Precio">
+            <input type="number" id="inputStock" placeholder="Stock">
+            <button id="botonAgregar">Agregar</button>
+            <button id="botonRestablecer">Restablecer bar</button>
+            <p id="mensajeAdmin"></p>
+            <input type="text" id="inputBuscar" placeholder="Buscar trago">
+            <div id="contenedor-items"></div>
+        </div>
+
+    </main>
+    <footer id="footer"></footer>
+</body>
+</html>

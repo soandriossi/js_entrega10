@@ -1,0 +1,10 @@
+[
+  { "id": "T-009", "nombre": "Negroni", "precio": 1200, "stock": 4 },
+  { "id": "T-006", "nombre": "Margarita", "precio": 1000, "stock": 5 },
+  { "id": "T-001", "nombre": "Fernet", "precio": 1200, "stock": 7 },
+  { "id": "T-002", "nombre": "Mojito", "precio": 900, "stock": 4 },
+  { "id": "T-004", "nombre": "Gin Tonic", "precio": 1400, "stock": 8 },
+  { "id": "T-005", "nombre": "Caipirinha", "precio": 1500, "stock": 6 },
+  { "id": "T-010", "nombre": "Aperol Spritz", "precio": 1000, "stock": 8 },
+  { "id": "T-008", "nombre": "Daiquiri", "precio": 1300, "stock": 3 }
+]
